@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myapplicationddgcardproject.MainActivityDDG">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bombayheights" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="The Bombay Heights is one of the latest arrivals in the Bed Stuy Brooklyn area. Bombay Heights is a fusion of East Indian cuisine. "
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="21sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="260dp"
+        android:text="Address: 1047 Bedford Ave Brooklyn NY 11216. Phone: (718) 230-7790 Website: www.bombayheightsny.com"/>
+
+</RelativeLayout>
